@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".Activity4">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_usia"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:hint="@string/masukkan_usia"
+        android:background="@drawable/border"
+        android:autofillHints="Berapa Usiamu"
+        android:inputType="text"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_alamat"
+        android:layout_below="@id/et_usia"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:hint="@string/masukkan_alamat"
+        android:background="@drawable/border"
+        android:autofillHints="Mana Alamatmu"
+        android:inputType="text"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/et_pekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_alamat"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="@string/masukkan_pekerjaan"
+        android:paddingStart="10dp"
+        android:autofillHints="Apa Pekerjaanmu?"
+        android:inputType="text"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/four_btn"
+        android:text="@string/go_to_screen_3"
+        android:layout_below="@id/et_pekerjaan"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+
+
+</RelativeLayout>

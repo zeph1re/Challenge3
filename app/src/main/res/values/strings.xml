@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Challenge3</string>
+    <string name="go_to_screen_2">Go To Screen 2</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="go_to_screen_3">Go To Screen 3</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="go_to_screen_4">Go To Screen 4</string>
+    <string name="masukkan_usia">Masukkan Usia</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="masukkan_pekerjaan">Masukkan Pekerjaan</string>
+</resources>
